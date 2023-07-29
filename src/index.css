@@ -1,13 +1,16 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap');
+html, body{
+  background-color: #EEE8E3;
+  background-image: url("../public/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lexend', sans-serif;
+  text-transform: uppercase;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* till 1020px 
+  then change to 
+  mobile size!
+*/

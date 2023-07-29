@@ -1,0 +1,44 @@
+.body{
+    position: fixed;
+    left: 1%;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.heading{
+    font-size: 120px;
+    font-weight: lighter;
+}
+
+.box{
+    padding: 0 30px 0 30px;
+    margin: 0 0 0 0;
+    background: none;
+    color: inherit;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font: inherit;
+    cursor: pointer;
+    /* outline: inherit; */
+    background-color: #F37B6B;
+}
+
+.sr-only{
+    color: transparent;
+}
+.arrow-icon{
+    width: 100px;
+    height: 80px;
+}
+
+.demo1{
+    background-color: #F7FF7C;
+    position: relative;
+    width: 30%;
+    z-index: 1;
+    align-self: flex-end;
+    border: 1.5px black solid;
+    font-weight: bold;
+}
